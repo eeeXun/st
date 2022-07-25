@@ -51,6 +51,7 @@ typedef struct {
 #define XK_SWITCH_MOD (1<<13|1<<14)
 
 /* function definitions used in config.h */
+static void changealpha(const Arg *);
 static void clipcopy(const Arg *);
 static void clippaste(const Arg *);
 static void numlock(const Arg *);
@@ -255,6 +256,18 @@ static char *opt_name  = NULL;
 static char *opt_title = NULL;
 
 static uint buttons; /* bit field of pressed buttons */
+
+void
+changealpha(const Arg *arg)
+{
+	if(arg->f == 0)
+		alpha = 0.75;
+	else if((alpha > 0 && arg->f < 0) || (alpha < 1 && arg->f > 0))
+		alpha += arg->f;
+
+	xloadcols();
+	redraw();
+}
 
 void
 clipcopy(const Arg *dummy)
