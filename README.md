@@ -9,3 +9,4 @@
 - [font2](https://st.suckless.org/patches/font2/st-font2-20190416-ba72400.diff)
 - [newterm](https://st.suckless.org/patches/newterm/st-newterm-20220221-0.8.5.diff)
 - [undercurl](https://st.suckless.org/patches/undercurl/st-undercurl-0.8.4-20210822.diff)
+- [scrollback](https://st.suckless.org/patches/scrollback/st-scrollback-0.8.5.diff)
