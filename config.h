@@ -223,6 +223,7 @@ static Shortcut shortcuts[] = {
     { MODKEY,               XK_equal,       changealpha,    {.f = +0.05} },
     { MODKEY,               XK_minus,       changealpha,    {.f = -0.05} },
     { MODKEY,               XK_0,           changealpha,    {.f = 0} },
+    { TERMMOD,              XK_Return,      newterm,        {.i = 0} },
 };
 
 /*
