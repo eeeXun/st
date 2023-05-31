@@ -15,3 +15,4 @@
 - [font2](https://st.suckless.org/patches/font2/st-font2-0.8.5.diff)
 - [glyph wide support](https://st.suckless.org/patches/glyph_wide_support/st-glyph-wide-support-20230701-5770f2f.diff)
 - [newterm](https://st.suckless.org/patches/newterm/st-newterm-0.9.diff)
+- [undercurl](https://st.suckless.org/patches/undercurl/st-undercurl-0.8.4-20210822.diff)
