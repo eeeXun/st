@@ -198,6 +198,9 @@ static Shortcut shortcuts[] = {
     { TERMMOD,              XK_Y,           selpaste,       {.i =  0} },
     { ShiftMask,            XK_Insert,      selpaste,       {.i =  0} },
     { TERMMOD,              XK_Num_Lock,    numlock,        {.i =  0} },
+    { MODKEY,               XK_equal,       changealpha,    {.f = +0.05} },
+    { MODKEY,               XK_minus,       changealpha,    {.f = -0.05} },
+    { MODKEY,               XK_0,           changealpha,    {.f = 0} },
 };
 
 /*
