@@ -4,7 +4,7 @@
 
 include config.mk
 
-SRC = st.c x.c
+SRC = st.c x.c boxdraw.c
 OBJ = $(SRC:.c=.o)
 
 all: options st
@@ -20,6 +20,7 @@ options:
 
 st.o: config.h st.h win.h
 x.o: arg.h config.h st.h win.h
+boxdraw.o: config.h st.h boxdraw_data.h
 
 $(OBJ): config.h config.mk
 
@@ -32,7 +33,7 @@ clean:
 dist: clean
 	mkdir -p st-$(VERSION)
 	cp -R LICENSE Makefile README.md config.mk\
-		config.h st.info arg.h st.h win.h $(SRC)\
+		config.h st.info arg.h st.h win.h boxdraw_data.h $(SRC)\
 		st-$(VERSION)
 	tar -cf - st-$(VERSION) | gzip > st-$(VERSION).tar.gz
 	rm -rf st-$(VERSION)
