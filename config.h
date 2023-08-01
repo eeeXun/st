@@ -198,6 +198,10 @@ static MouseShortcut mshortcuts[] = {
     { XK_ANY_MOD,           Button2,        selpaste,       {.i = 0},       1 },
     { ControlMask,          Button4,        zoom,           {.f = +2} },
     { ControlMask,          Button5,        zoom,           {.f = -2} },
+    { XK_NO_MOD,            Button4,        kscrollup,      {.i = 1} },
+    { XK_NO_MOD,            Button5,        kscrolldown,    {.i = 1} },
+    { Mod1Mask,             Button4,        kscrollup,      {.i = 15} },
+    { Mod1Mask,             Button5,        kscrolldown,    {.i = 15} },
     { XK_ANY_MOD,           Button4,        ttysend,        {.s = "\031"} },
     { XK_ANY_MOD,           Button5,        ttysend,        {.s = "\005"} },
 };
@@ -224,6 +228,12 @@ static Shortcut shortcuts[] = {
     { MODKEY,               XK_minus,       changealpha,    {.f = -0.05} },
     { MODKEY,               XK_0,           changealpha,    {.f = 0} },
     { TERMMOD,              XK_Return,      newterm,        {.i = 0} },
+    { MODKEY,               XK_k,           kscrollup,      {.i = 1} },
+    { MODKEY,               XK_j,           kscrolldown,    {.i = 1} },
+    { MODKEY,               XK_u,           kscrollup,      {.i = 15} },
+    { MODKEY,               XK_d,           kscrolldown,    {.i = 15} },
+    { MODKEY,               XK_b,           kscrollup,      {.i = 30} },
+    { MODKEY,               XK_f,           kscrolldown,    {.i = 30} },
 };
 
 /*
