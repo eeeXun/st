@@ -2,7 +2,7 @@
 
 ## source
 
-- [suckless 211964d](https://st.suckless.org/)
+- [suckless 5dbcca4](https://st.suckless.org/)
 
 ## patches
 
