@@ -7,13 +7,7 @@ include config.mk
 SRC = st.c x.c boxdraw.c
 OBJ = $(SRC:.c=.o)
 
-all: options st
-
-options:
-	@echo st build options:
-	@echo "CFLAGS  = $(STCFLAGS)"
-	@echo "LDFLAGS = $(STLDFLAGS)"
-	@echo "CC      = $(CC)"
+all: st
 
 .c.o:
 	$(CC) $(STCFLAGS) -c $<
@@ -39,4 +33,4 @@ install: st
 uninstall:
 	rm -f $(DESTDIR)$(PREFIX)/bin/st
 
-.PHONY: all options clean install uninstall
+.PHONY: all clean install uninstall
