@@ -5,7 +5,10 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "Monospace:size=18:antialias=true:autohint=true";
+static char *font = "Hack Nerd Font:size=18:antialias=true:autohint=true";
+static char *font2[] = {
+    "Noto Color Emoji:pixelsize=18:antialias=true:autohint=true",
+};
 static int borderpx = 2;
 
 /*

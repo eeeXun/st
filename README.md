@@ -12,3 +12,4 @@
 - [boxdraw](https://st.suckless.org/patches/boxdraw/st-boxdraw_v2-0.8.5.diff)
 - [delkey](https://st.suckless.org/patches/delkey/st-delkey-20201112-4ef0cbd.diff)
 - [dynamic cursor color](https://st.suckless.org/patches/dynamic-cursor-color/st-dynamic-cursor-color-0.9.diff)
+- [font2](https://st.suckless.org/patches/font2/st-font2-0.8.5.diff)
