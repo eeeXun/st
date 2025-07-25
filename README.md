@@ -6,7 +6,7 @@
 
 ## patches
 
-- [alpha](https://st.suckless.org/patches/alpha/st-alpha-20220206-0.8.5.diff)
+- [alpha](https://st.suckless.org/patches/alpha/st-alpha-20240814-a0274bc.diff)
 - [anysize](https://st.suckless.org/patches/anysize/st-anysize-20220718-baa9357.diff)
 - [blinking cursor](https://st.suckless.org/patches/blinking_cursor/st-blinking_cursor-20230819-3a6d6d7.diff)
 - [boxdraw](https://st.suckless.org/patches/boxdraw/st-boxdraw_v2-0.8.5.diff)
